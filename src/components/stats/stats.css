@@ -1,0 +1,15 @@
+.stats {
+
+}
+
+.stats--text, .stats--title {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.stats--title {
+    font-weight: 700;
+}

@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+}
+
+.sidebar-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar--button {
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+.add {
+    background: rgba(90, 255, 0, 0.2);
+    color: rgb(90, 255, 0);
+}
+
+.del {
+    background: rgba(255, 30, 0, 0.2);
+    color: rgb(255, 30, 0);
+}
+
+.sidebar--characters {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar--character {
+    font-family: "Inter", sans-serif;
+    background-color: #7789FF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+.selected {
+    background-color: #8b99f7;
+}
