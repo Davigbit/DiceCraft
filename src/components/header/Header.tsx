@@ -1,4 +1,4 @@
-import "./Header.css"
+import "./Header.css";
 
 export default function Header() {
 
@@ -6,5 +6,5 @@ export default function Header() {
         <header>
             <h1 className="header--title">DiceCraft</h1>
         </header>
-    )
+    );
 }
