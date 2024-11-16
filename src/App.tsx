@@ -49,12 +49,7 @@ export default function App() {
     }
 
     function getCurrentCharacter(id: number) {
-        for (const character of characterList) {
-            if (character.id === id) {
-                return character;
-            }
-        }
-        return {
+        return characterList.find(character => character.id === id) || {
             id: Math.floor(Math.random() * 9999),
             name: "Character Name",
             lvl: 1,

@@ -1,5 +1,7 @@
 .stats {
-
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 500px;
 }
 
 .stats--text, .stats--title {
@@ -12,4 +14,19 @@
 
 .stats--title {
     font-weight: 700;
+}
+
+.stats--button {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #7789FF;
+    color: white;
+    margin: 10px 10px;
+}
+
+.stats--bar {
+
 }
