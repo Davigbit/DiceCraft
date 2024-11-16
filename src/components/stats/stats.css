@@ -27,6 +27,47 @@
     margin: 10px 10px;
 }
 
-.stats--bar {
+.stats--input {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
 
+.stats--bar {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 30px;
+}
+
+.hp::-webkit-progress-value {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.hp::-webkit-progress-bar {
+    border-radius: 10px;
+}
+
+.hp::-moz-progress-bar {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.xp::-webkit-progress-value {
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+.xp::-webkit-progress-bar {
+    border-radius: 10px;
+}
+
+.xp::-moz-progress-bar {
+    background-color: greenyellow;
+    border-radius: 10px;
 }
